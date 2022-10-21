@@ -1,4 +1,4 @@
-package models;
+package com.materiales.servicioMateriales.models;
 
 public class User {
     private String user;

@@ -1,4 +1,4 @@
-package controller;
+package com.materiales.servicioMateriales.controller;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -6,14 +6,13 @@ import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import models.FechaMaterial;
+import com.materiales.servicioMateriales.models.FechaMaterial;
 
 @RestController
 public class Controller {
 
 	@GetMapping("/FechaFabricacion")
     public Date getFechaFabricacion() {
-        System.out.println("entra!!!!!!!!!!!!!!");
         Date fecha = new Date(05/01/2023);
         return fecha;
     }

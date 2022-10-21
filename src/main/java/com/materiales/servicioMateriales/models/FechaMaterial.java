@@ -1,4 +1,4 @@
-package models;
+package com.materiales.servicioMateriales.models;
 
 import java.util.Date;
 
